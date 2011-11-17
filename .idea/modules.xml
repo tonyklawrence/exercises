@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/credit_card.iml" filepath="$PROJECT_DIR$/credit_card.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luhns_algorithm.iml" filepath="$PROJECT_DIR$/luhns_algorithm.iml" />
     </modules>
   </component>
 </project>
