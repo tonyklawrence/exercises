@@ -16,9 +16,9 @@ The formula verifies a number against its included check digit, which is usually
 
 Assume an example of an account number "7992739871" that will have a check digit added, making it of the form 7992739871x:
 
-Account number       7	9	9	2	7	3	9	8	7	1	x
-Double every other	7	18	9	4	7	6	9	16	7	2	x
-Sum of digits	      7	9	9	4	7	6	9	7	7	2	= 67
+```Account number______:  7___9___9___2___7___3___9___8___7___1___x
+Double every other__: 7__18___9___4___7___6___9__16___7___2___x
+Sum of digits_______:  7___9___9___4___7___6___9___7___7___2	= 67```
 
 ### Obtaining the check digit
 
