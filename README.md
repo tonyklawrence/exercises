@@ -4,7 +4,13 @@ You are asked to implement basic credit card validation.
 
 ## Acceptance Criteria
 
-**Given** a user is attempting to conclude a online purchase **when** a credit card number greater than 16 digits is entered **then** the system indicates the credit card is invalid along with a message "the credit card entered is too long" so that a user understands their mistake and can reenter the credit card number and conclude the transation.
+**Given** a user attempts to conclude an online purchase, **when** a valid credit card number is entered (according to Luhn's algorithm), **then** the system indicates the credit card in valid.
+
+**Given** a user attempts to conclude an online purchase, **when** an invalid credit card number is entered (according to Luhn's algorithm), **then** the system indicates the credit card in invalid along with the message "the credit card is invalid" so that the user understands the transaction failed.
+
+**Given** a user is attempting to conclude an online purchase, **when** a credit card number greater than 16 digits is entered, **then** the system indicates the credit card is invalid along with the message "the credit card entered is too long" so that a user understands their mistake and can reenter the credit card number and conclude the transaction.
+
+
 
 ## Luhn's Algorithm
 
@@ -31,7 +37,7 @@ The check digit (x) is obtained by computing the sum of digits modulo 10 and the
 
 This, makes the full account number read 79927398713.
 
-### Validaing
+### Validating
 
 The account number 79927398713 in turn is validated as follows:
 
