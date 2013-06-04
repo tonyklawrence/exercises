@@ -26,13 +26,13 @@ The value equations for this option are given by:
      Put(t) = max(K - S(t), 0)
 
 
-## Test Data
+## Example Data
 
        t: [ 0, 1, 2, 3, 4, 5, 6, 7, 8 , 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ]
     S(t): [ 100, 102, 97, 90, 77, 65, 66, 80, 87, 100, 103, 105, 115, 112, 100, 105, 117, 120, 112, 102 ]
        K: 80
 
-![](stock_movement.png)
+![](example-data.png)
 
 ## Resources
 
