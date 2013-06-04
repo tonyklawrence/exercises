@@ -1,10 +1,8 @@
 # Exercise
 
-I'm a junior trader and I want one of our desk developers to build a tool to display the payoffs of a vanilla option
-over time. To do so, he will use a library that you will be developing.
+A junior trader requires a tool to display the value of a Vanilla Option at a given point in time. To do so, he needs a library that you will be developing.
 
-Assuming that interest rate, volatility, and time to maturity remain constant throughout, the only parameters to be
-considered for the calculation of the payoff are spot price and strike price.
+The only parameters to be considered in this simplified model for the valuation are spot price and strike price.
 
 
 ## Definitions
@@ -13,16 +11,16 @@ The plain vanilla option is the most traded option. There are two types of vanil
 
 `Call` Options give the owner the right to buy the underlying for a fixed price `K` (the strike) at expiration.
 
-The payoff of this option is thus `S - K` when the stock's spot price `S` is above the strike `K`, and `0` otherwise.
+The value of this option is thus `S - K` when the stock's spot price `S` is above the strike `K`, and `0` otherwise.
 
 `Put` Options give the owner the right to sell the underlying for a fixed price.
 
-This option has a payoff of `K - S` when the stock's spot price is below the strike `K`, and `0` otherwise.
+This option has a value of `K - S` when the stock's spot price is below the strike `K`, and `0` otherwise.
 
 
 ## Relevant Equations
 
-The payoff equations for this option are given by:
+The value equations for this option are given by:
 
     Call(t) = max(S(t) - K, 0)
      Put(t) = max(K - S(t), 0)
