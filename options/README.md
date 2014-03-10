@@ -4,8 +4,8 @@ A junior trader is building a tool to display the payoff of an option.
 To do so, he needs a Java library that will calculate the payoff of an option at a given point in time.
 
 The only parameters to be considered for the payoff are spot price and strike price.
-•	The strike price is defined when the option is created
-•	The spot price varies over the life of the option, according to the performance of a stock
+* The strike price is defined when the option is created
+* The spot price varies over the life of the option, according to the performance of a stock
 
 
 # Definitions
